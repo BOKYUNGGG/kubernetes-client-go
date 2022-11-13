@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/SEOBOKYUNGGG/kubernetes-client-go/something"
+	"github.com/SEOBOKYUNGGG/banking"
 )
 
 func main() {
-	fmt.Println("Hello, World")
-	something.SayHello()
+	account := banking.Account{Owner: "nico", Balance: 1000}
+	fmt.Println(account)
 }
