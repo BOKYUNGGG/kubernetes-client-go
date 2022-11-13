@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/SEOBOKYUNGGG/banking"
+	"github.com/SEOBOKYUNGGG/kubernetes-client-go/banking"
 )
 
 func main() {
